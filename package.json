@@ -1,0 +1,34 @@
+{
+  "name": "mongoose_relationships",
+  "version": "0.0.1",
+  "description": "Proyecto para mostrar como se relacionan los datos",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "babel-node app.js"
+  },
+  "bin": {
+    "babel-node": "./bin/babel-node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitthb"
+  },
+  "keywords": [
+    "mongoose"
+  ],
+  "author": "juandav",
+  "license": "MIT",
+  "dependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-plugin-syntax-export-extensions": "^6.13.0",
+    "babel-plugin-transform-class-properties": "^6.11.5",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "chai": "^3.5.0",
+    "dreamjs": "^0.1.7",
+    "express": "^4.14.0",
+    "mocha": "^3.0.2",
+    "mongoose": "^4.6.0"
+  }
+}
